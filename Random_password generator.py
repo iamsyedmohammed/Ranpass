@@ -7,7 +7,7 @@ def play():
     lower="abcdefghijklmnopqrstuvwxyz"
     upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     num="0123456789"
-    sym="!@#$%^&*()_+"
+    sym="!@#$%^&*(){}_+"
     string=lower+upper+num+sym
     length=int(input("Enter The Length You Want for Your Password:\n"))
     if length >= 8 and length <= 15:
